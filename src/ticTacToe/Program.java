@@ -37,7 +37,7 @@ public class Program {
 				
 			}	System.out.printf("Winner: %s ", winner); 
 		} catch (InputMismatchException e) {
-			System.out.println("Invalid position! Chosse a number between 0-8 next time");
+			System.out.println("Invalid position! Choose a number between 0-8 next time");
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Position out of bounds! Choose a position between 0-8 next time");
 		}
